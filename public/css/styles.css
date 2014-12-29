@@ -1,0 +1,128 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+/** TOP **/
+ 
+nav {
+    width:100%;
+    background-color: #fff;
+    padding: 0.7em;
+}
+
+#cs50 {
+    margin:auto;
+    text-align:left;
+    font-size: 1.0em;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.42857143;
+    background-color: #eef1f4;
+}
+
+.navbox {
+    background-color: #FFF;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+    border-top: solid 3px #4ed2ab;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;    
+    display: inline-block;
+    padding: 1em;
+    width: 143px;
+}
+
+.navbox:hover{
+    box-shadow: 2px 2px 2px #C8CACC;
+    font-weight:bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/** MIDDLE **/
+
+#middle .form-control
+{
+    display: inline-block;
+    width: auto;
+    clear: all;   
+}
+
+.headline {
+    font-size:2em;
+    text-align: center;
+    color: #4ed2ab;
+    margin-bottom:3%;
+}
+
+.table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.row {
+    margin-right: 0;  
+    margin-left: 0;
+}
+
+h1.subhead {
+    font-weight: bold;
+    font-size:2em;
+    text-align: center;
+    color: #4ed2ab;
+    margin-bottom:3%;
+    margin-top:0;
+}
+
+.formmsg {
+    margin-top:2em;
+    color: #777; 
+}
+
+.tablebody {
+    font-size: 0.7em;
+}
+
+/** BOTTOM **/
+
+#bottom {
+    display: inline-block;
+    width: auto;
+    clear: all;  
+    position: absolute;
+    bottom:0;
+    
+}
+
+#author {
+    color: #000;
+    font-weight: bold;
+    position: absolute;
+    bottom:0;
+}
+
+
+#foot {
+    width:100%;
+}
+
